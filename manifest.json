@@ -1,0 +1,19 @@
+{
+    "name": "AdBlocker | TITS",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "AdBlocker block requests sent to ad platforms. Also, if any ad is not blocked by this chrome extension, you can raise issue via submitting proper ad details. We will be happy to update in out platforms.",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [ "background.js" ]
+    },
+    "icons": {
+        "16": "icons/arrogant_16x16.png",
+        "32": "icons/arrogant_32x32.png",
+        "128": "icons/arrogant_128x128.png"
+    }
+}
